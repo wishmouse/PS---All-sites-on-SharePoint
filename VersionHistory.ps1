@@ -14,11 +14,11 @@ $WebUrl = "https://mdanz.sharepoint.com/Sites/CRMDevelopment/"  #Site report wil
 
 # Define Credentials - heidi
 [string]$userName = "heidi.goosen@mda.nz"
-[string]$userPassword = "10Badgers"
+[string]$userPassword = "xxxxx"
 
    #Upload Variables  - Admin Heidi
     [string]$AdminName = "heidi.goosen@mda.nz"
-    [string]$AdminPassword = "10Badgers"
+    [string]$AdminPassword = "xxxxxx"
 
     #Upload Credentials 
     [SecureString]$SecurePass = ConvertTo-SecureString $AdminPassword -AsPlainText -Force 
